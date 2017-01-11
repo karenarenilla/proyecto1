@@ -1,0 +1,75 @@
+@font-face
+{
+	font-family: Mistral;
+	src: url("fonts/mistral.TTF");
+}
+
+@font-face
+{
+	font-family: Sloppy-Hand;
+	src: url("fonts/Sloppy-Hand.TTF");
+}
+
+@font-face
+{
+	font-family: Lorem;
+	src: url("fonts/lorem.TTF");
+}
+
+@font-face
+{
+	font-family: Bunny;
+	src: url("fonts/Bunny.TTF");
+}
+.jumbotron{
+	overflow: hidden;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#jumbotron1{
+
+	background-color: rgba(0, 0, 0, 0.8);
+	background-attachment: fixed;
+	z-index: 1000;
+	height: 130px;
+}
+.container{
+	margin-left: 200px;
+}
+#logo .img-circle{
+
+	width: 66px;
+	height: 66px;
+}
+#text-logo p, h2 {
+
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	color: white; font-size: 1em;
+}
+
+#text-logo h2{
+
+	margin-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	color: white; font-size: 1.5em;
+}
+
+#jumbotron2{
+
+    background-image: url('../imagen/4.jpg');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jumbotron3{
+
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 350px;
+}
